@@ -86,9 +86,9 @@ cs1 = '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.oracle',
-	'NAME':'phoenix94819.dev3sub2phx.databasede3phx.oraclevcn.com:1521/cdb1_pdb1.regress.rdbms.dev.us.oracle.com',
-        'USER':'scott', 
-	'PASSWORD':'tiger',
+	'NAME':'xxx',
+        'USER':'xxx', 
+	'PASSWORD':'xxx',
         'OPTIONS':{'pool':{'min':1,'max':10}},
 	}
 
